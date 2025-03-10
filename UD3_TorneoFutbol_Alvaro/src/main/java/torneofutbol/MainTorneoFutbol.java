@@ -11,10 +11,10 @@ public class MainTorneoFutbol {
         Equipo equipoMH = new Equipo("IES MH FC");
 
         // Agregar jugadores al equipoMH
-        equipoMH.agregarJugador("Pepe", 1);
+        equipoMH.agregarJugador("Pepe", 9);
         equipoMH.agregarJugador("Aitana", 8);
-        equipoMH.agregarJugador("Alvaro", 9);
-        equipoMH.agregarJugador("Manuel", 7);
+        equipoMH.agregarJugador("Alvaro", 7);
+        equipoMH.agregarJugador("Manuel", 6);
 
         // Mostrar la lista de jugadores del equipoMH
         System.out.println("\nLista de jugadores en el equipo "+equipoMH.getNombreEquipo()+":");
